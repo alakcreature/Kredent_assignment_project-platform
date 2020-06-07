@@ -1,0 +1,87 @@
+.header{
+    display:flex;
+    flex-flow:row wrap;
+    color:white;
+    align-items: flex-start;
+  }
+  
+  .header h1{
+    color: aliceblue;
+    margin-left: 47%;
+    flex: 1 0 auto;
+    }
+
+  .header p{
+    background-color: transparent;
+    width: fit-content;
+    /* float: right; */
+    color: darkcyan;
+    font-size: 14px;
+    /* margin-left: 35%; */
+    flex:1 0 auto;
+  }
+
+  .i{
+    padding-top:19px;
+    font-size: 20px;
+    color: #08c;
+    margin-left:1%;
+    }
+
+    .site-card-wrapper{
+        background: #ececec;
+        padding:10px;
+    }
+
+    .dblock{
+        display: block;
+    }
+
+    .dnone{
+        display: none;
+    }
+
+    .add{
+        display:inline-block;
+        padding: 0.35em 1.2em;
+        margin-top: 1px;
+        margin-bottom: 1%;
+        border: 0.1em solid rgba(255, 255, 255, 0.932);
+        border-radius: 0.13em;
+        text-decoration:none;
+        text-align:center;
+        font-weight: 300;
+        color:rgb(8, 184, 131);
+        transition: all 0.2s;
+    }
+
+    button:hover{
+        color: #000000;
+        background-color: #FFFFFF;
+      }
+    
+      .add-loading-form{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-color: rgba(0,0,0,0.8) !important;
+      }
+  
+      .dashboard-spinner{
+        padding-top: 17% !important;
+        padding-left: 45% !important;
+      }
+
+      .comment-section{
+          background-color: rgb(230, 215, 215);
+          border: thin;
+          padding: 1%;
+      }
+
+      .comment-section p{
+        border: thin dashed;
+        padding-top: 1%;
+      }
